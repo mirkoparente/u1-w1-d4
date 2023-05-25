@@ -1,0 +1,208 @@
+/* IMPOSTAZIONI GENERALI */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+h1,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+html {
+  font-family: "Poppins", sans-serif;
+  background-image: url(../img/sfondo.png);
+  background-position: center;
+  margin: 0 auto;
+}
+body {
+  margin: 2em;
+}
+a {
+  color: rgb(5, 150, 199);
+}
+/* HEADER */
+header {
+  border: 1px solid gray;
+  color: white;
+  background-color: rgb(2, 102, 128);
+  text-align: center;
+  list-style: none;
+  box-shadow: -2px 5px 10px gray;
+}
+.header-img {
+  margin: 3em 0;
+}
+.header-img p {
+  margin-top: 1.5em;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+nav ul li {
+  line-height: 1.5em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+nav {
+  margin-bottom: 2.5em;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 0.5em;
+}
+/* MAIN */
+hr {
+  opacity: 0;
+  padding-bottom: 1em;
+}
+main {
+  border: 1px solid white;
+  background-color: white;
+  padding-bottom: 3em;
+  box-shadow: -2px 5px 10px gray;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+article,
+aside,
+footer {
+  margin: 1.1em;
+}
+article *:not(li, caption),
+aside,
+footer {
+  line-height: 1.5em;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+article h1 {
+  font-size: 2em;
+  line-height: 1.3em;
+}
+article p:first-of-type {
+  color: gray;
+}
+article p:not(p:first-of-type) {
+  font-weight: 500;
+}
+article ul,
+ol {
+  font-weight: 500;
+  font-size: 1.1em;
+  margin-left: 2.5em;
+}
+code {
+  border: 1px solid gray;
+  background-color: lightgray;
+  border-radius: 0.5em;
+}
+article h2 {
+  font-weight: 500;
+  margin-bottom: 0;
+}
+strong {
+  color: rgb(170, 32, 114);
+}
+caption {
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+/* TABELLE */
+table {
+  border-bottom: 5px solid rgb(60, 107, 201);
+}
+thead th {
+  font-size: 0.7em;
+  border: 1px solid;
+  background-color: rgb(60, 107, 201);
+  color: white;
+  vertical-align: bottom;
+  padding: 1em;
+}
+tbody td {
+  text-align: center;
+  font-size: 0.7em;
+  padding: 1em;
+}
+tbody tr:nth-child(even) {
+  background-color: rgba(211, 211, 211, 0.577);
+}
+iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 1.5em;
+}
+/* FORM */
+section {
+  background-color: rgba(211, 211, 211, 0.733);
+  margin-top: 1.5em;
+}
+section h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+  padding: 0.3em;
+  text-align: center;
+}
+section p:first-of-type {
+  color: black;
+  font-size: 1em;
+  font-weight: 500;
+  margin: 1em 1em;
+  text-align: start;
+}
+form {
+  margin-left: 0.9em;
+}
+form input {
+  width: 60%;
+  font-size: 1.1em;
+  border: none;
+  border-bottom: 3px dotted gray;
+}
+form button {
+  font-size: 0.9em;
+  background-color: rgb(57, 105, 200);
+  color: white;
+  font-weight: 500;
+}
+
+/* ELEMENTI NELL' ASIDE */
+aside h2 {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 1em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.correlati {
+  margin: 1em 0;
+  padding: 1em;
+  background-color: rgba(211, 211, 211, 0.685);
+  font-weight: 500;
+}
+.correlati :nth-child(3) {
+  font-size: 0.8em;
+  margin: 0.7em 0;
+  text-align: end;
+}
+/* FOOTER */
+footer {
+  background-color: rgb(2, 84, 102);
+  padding: 1em;
+  font-size: 0.9em;
+}
+footer p {
+  text-align: center;
+  color: white;
+  margin-bottom: 1em;
+}
+footer address {
+  color: white;
+  text-align: center;
+}
+footer a {
+  color: rgb(248, 3, 240);
+}
